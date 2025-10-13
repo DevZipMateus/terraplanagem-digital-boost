@@ -2,25 +2,25 @@ import { Target, Eye, Heart } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-card">
+    <section id="about" className="py-12 sm:py-16 md:py-20 px-4 bg-card">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-center mb-12">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-center mb-8 sm:mb-12">
           Sobre nós
         </h2>
         
-        <div className="max-w-4xl mx-auto mb-16">
-          <p className="text-lg text-foreground mb-6">
+        <div className="max-w-4xl mx-auto mb-12 sm:mb-16">
+          <p className="text-base sm:text-lg text-foreground mb-4 sm:mb-6">
             A MF Farias Terraplanagem foi fundada em fevereiro de 2019, com o propósito de oferecer serviços de qualidade e confiança no segmento de terraplanagem e movimentação de solo. Desde o início, a empresa vem construindo sua trajetória com muito trabalho, dedicação e investimento constante em tecnologia e capacitação.
           </p>
-          <p className="text-lg text-foreground mb-6">
+          <p className="text-base sm:text-lg text-foreground mb-4 sm:mb-6">
             Ao longo dos anos, a MF Farias expandiu suas atividades, incorporando novos serviços como demolições, locação de máquinas e caminhões, além de parcerias sólidas com prefeituras e órgãos públicos. Essa diversificação permitiu atender obras de diferentes portes, sempre com eficiência e comprometimento.
           </p>
-          <p className="text-lg text-foreground">
+          <p className="text-base sm:text-lg text-foreground">
             O crescimento da empresa é resultado de uma gestão focada em melhorias contínuas de equipamentos, garantindo produtividade, segurança e resultados de alto desempenho em cada projeto.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           <div className="bg-background p-8 rounded-lg border border-border hover:border-primary transition-colors">
             <Target className="w-12 h-12 text-primary mb-4" />
             <h3 className="text-xl font-bold text-primary mb-4">Missão</h3>

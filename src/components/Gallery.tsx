@@ -88,16 +88,16 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 px-4 bg-muted/30">
+    <section id="gallery" className="py-12 sm:py-16 md:py-20 px-4 bg-muted/30">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-center mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-center mb-3 sm:mb-4">
           Nossos equipamentos e trabalhos
         </h2>
-        <p className="text-lg text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg text-muted-foreground text-center mb-8 sm:mb-12 max-w-2xl mx-auto px-4">
           Conheça nossa frota moderna e veja alguns dos projetos realizados
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto">
           {galleryItems.map((item, index) => (
             <div 
               key={index}
@@ -110,9 +110,9 @@ const Gallery = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-primary mb-3">{item.title}</h3>
-                <p className="text-foreground">{item.description}</p>
+              <div className="p-4 sm:p-6">
+                <h3 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">{item.title}</h3>
+                <p className="text-sm sm:text-base text-foreground">{item.description}</p>
               </div>
             </div>
           ))}

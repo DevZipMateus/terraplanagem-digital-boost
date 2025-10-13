@@ -17,8 +17,8 @@ const Header = () => {
     }
   };
   return <header className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur border-b border-gray-200">
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <img src="/logo.png" alt="MF Farias Terraplanagem - Logo" className="h-36 w-auto" />
+      <div className="container mx-auto px-4 h-16 sm:h-20 flex items-center justify-between">
+        <img src="/logo.png" alt="MF Farias Terraplanagem - Logo" className="h-20 sm:h-28 md:h-36 w-auto" />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
