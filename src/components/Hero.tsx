@@ -18,7 +18,7 @@ const Hero = () => {
         <img 
           src="/logo.png" 
           alt="MF Farias Terraplanagem - Logo" 
-          className="h-32 w-auto mx-auto mb-8 animate-fade-in"
+          className="h-32 w-auto mx-auto mb-8 animate-fade-in brightness-0 invert"
         />
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 animate-fade-in">
