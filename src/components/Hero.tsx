@@ -1,12 +1,20 @@
 import { Button } from "./ui/button";
+import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   return (
     <section 
       id="home" 
-      className="min-h-screen flex items-center justify-center pt-20 px-4 bg-gradient-to-b from-background to-card"
+      className="min-h-screen flex items-center justify-center pt-20 px-4 relative"
+      style={{
+        backgroundImage: `url(${heroBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
     >
-      <div className="container mx-auto text-center">
+      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="container mx-auto text-center relative z-10">
         <img 
           src="/logo.png" 
           alt="MF Farias Terraplanagem - Logo" 
@@ -17,11 +25,11 @@ const Hero = () => {
           MF Farias Terraplanagem
         </h1>
         
-        <h2 className="text-xl md:text-2xl lg:text-3xl text-foreground mb-8 animate-fade-in">
+        <h2 className="text-xl md:text-2xl lg:text-3xl text-white mb-8 animate-fade-in">
           Movendo o solo, construindo o futuro
         </h2>
         
-        <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in">
+        <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-12 animate-fade-in">
           Terraplanagem, demolições, abertura de açudes e tanques, locação de máquinas e caminhões. Compromisso com qualidade, segurança e sustentabilidade.
         </p>
         
