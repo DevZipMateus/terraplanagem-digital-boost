@@ -8,6 +8,10 @@ import caminhoes from "@/assets/caminhoes-basculante.jpg";
 import retroEscavadeira from "@/assets/retro-escavadeira.jpg";
 import demolicao1 from "@/assets/demolicao-1.jpg";
 import demolicao2 from "@/assets/demolicao-2.jpg";
+import limpezaRodovia from "@/assets/limpeza-rodovia.jpg";
+import terraplanagem from "@/assets/terraplanagem-terreno.jpg";
+import compactacao from "@/assets/compactacao-solo.jpg";
+import locacoes from "@/assets/locacoes-equipamentos.jpg";
 
 const Gallery = () => {
   const galleryItems = [
@@ -60,6 +64,26 @@ const Gallery = () => {
       image: demolicao2,
       title: "Remoção de Bases Estruturais",
       description: "Demolição segura de fundações e estruturas de concreto"
+    },
+    {
+      image: limpezaRodovia,
+      title: "Limpeza de Rodovia",
+      description: "Serviços de limpeza e manutenção em rodovias e vias públicas"
+    },
+    {
+      image: terraplanagem,
+      title: "Terraplanagem Residencial",
+      description: "Preparação e nivelamento de terrenos para construção"
+    },
+    {
+      image: compactacao,
+      title: "Compactação de Solo",
+      description: "Compactação profissional para garantir estabilidade do terreno"
+    },
+    {
+      image: locacoes,
+      title: "Locação de Equipamentos",
+      description: "Frota completa disponível para locação em suas obras"
     }
   ];
 
