@@ -28,12 +28,12 @@ const Gallery = () => {
     {
       image: prancha,
       title: "Transporte de Equipamentos",
-      description: "Prancha para transporte seguro de máquinas pesadas - R$ 200.000"
+      description: "Prancha para transporte seguro de máquinas pesadas - R$ 20.000"
     },
     {
       image: paCarregadeira,
       title: "Pá Carregadeira",
-      description: "Ideal para movimentação de terra e materiais - R$ 290.000"
+      description: "Ideal para movimentação de terra e materiais - R$ 29.000"
     },
     {
       image: escavadeira14,
@@ -43,17 +43,17 @@ const Gallery = () => {
     {
       image: miniCarregadeira,
       title: "Mini Carregadeira",
-      description: "Equipamento compacto para trabalhos em espaços reduzidos - R$ 72.000"
+      description: "Equipamento compacto para trabalhos em espaços reduzidos - R$ 7.200"
     },
     {
       image: caminhoes,
       title: "Caminhões Basculantes",
-      description: "Frota de caminhões para transporte de material - R$ 17.000/mês"
+      description: "Frota de caminhões para transporte de material - R$ 1.700/mês"
     },
     {
       image: retroEscavadeira,
       title: "Retroescavadeira",
-      description: "Equipamento multifuncional para escavação e carregamento - R$ 220.000"
+      description: "Equipamento multifuncional para escavação e carregamento - R$ 22.000"
     },
     {
       image: demolicao1,
