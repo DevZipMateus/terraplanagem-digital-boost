@@ -24,10 +24,10 @@ const Contact = () => {
                 <div>
                   <p className="text-sm sm:text-base font-semibold text-foreground mb-1">Telefone</p>
                   <a 
-                    href="https://wa.me/5514981131926" 
+                    href="https://wa.me/5514997641440" 
                     className="text-sm sm:text-base text-primary hover:text-accent transition-colors break-all"
                   >
-                    (14) 98113-1926
+                    (14) 99764-1440
                   </a>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Contact = () => {
             <Button 
               size="lg"
               className="w-full bg-primary text-primary-foreground hover:bg-secondary"
-              onClick={() => window.open("https://wa.me/5514981131926", "_blank")}
+              onClick={() => window.open("https://wa.me/5514997641440", "_blank")}
             >
               <Phone className="w-5 h-5 mr-2" />
               Falar pelo WhatsApp
