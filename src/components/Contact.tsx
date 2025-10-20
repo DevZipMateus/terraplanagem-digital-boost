@@ -37,10 +37,10 @@ const Contact = () => {
                 <div>
                   <p className="text-sm sm:text-base font-semibold text-foreground mb-1">E-mail</p>
                   <a 
-                    href="mailto:lopez.aryanelopez@gmail.com" 
+                    href="mailto:comercialmfterraplanagem@gmail.com" 
                     className="text-sm sm:text-base text-primary hover:text-accent transition-colors break-all"
                   >
-                    lopez.aryanelopez@gmail.com
+                    comercialmfterraplanagem@gmail.com
                   </a>
                 </div>
               </div>
